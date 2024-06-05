@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Footer.scss'
-import { LocationOn, LocalPhone, Email } from '@mui/icons-material'
+import {  Email } from '@mui/icons-material'
 
 const Footer = () => {
   return (

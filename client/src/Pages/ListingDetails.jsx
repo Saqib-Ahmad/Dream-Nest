@@ -35,7 +35,7 @@ const ListingDetails = () => {
   };
 
   useEffect(() => {
-    getListingDetails();
+    getListingDetails()
   }, []);
 
   console.log(listing)
@@ -107,7 +107,7 @@ const ListingDetails = () => {
           {listing.listingPhotoPaths?.map((item) => (
             <img
               src={`http://localhost:3001/${item.replace("public", "")}`}
-              alt="listing photo"
+              alt="listing"
             />
           ))}
         </div>
@@ -128,7 +128,7 @@ const ListingDetails = () => {
               "public",
               ""
             )}`}
-          />
+           alt="profile"/>
           <h3>
             Hosted by {listing.creator.firstName} {listing.creator.lastName}
           </h3>
